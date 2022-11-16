@@ -14,6 +14,7 @@
 .container {
     height: 100vh;
     width: 100vw;
+    background: url("Airpods.jpeg") no-repeat center;
 }
 
 .keys {
@@ -39,6 +40,13 @@
     justify-content: center;
     border: 3px solid black;
     text-transform: uppercase;
+    transition: all 0.09s ease-in-out;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: gold;
+    box-shadow: 0 0 10px gold;
 }
 
 .key kbd {
@@ -54,6 +62,9 @@
 
 
 @media  screen and (max-width: 769px) {
+    .container {
+        background-size: 140% 90%;
+    }
     .keys {
         flex-direction: column;
         justify-content: space-evenly;

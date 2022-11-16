@@ -11,43 +11,92 @@
   <body>
     <div class="container">
       <div class="keys">
-        <div data-key="" class="key">
+        <div data-key="65" class="key">
           <kbd>A</kbd>
           <span>clap</span>
         </div>
-        <div data-key="" class="key">
+        <div data-key="83" class="key">
           <kbd>S</kbd>
           <span>hihat</span>
         </div>
-        <div data-key="" class="key">
+        <div data-key="68" class="key">
           <kbd>D</kbd>
           <span>kick</span>
         </div>
-        <div data-key="" class="key">
+        <div data-key="70" class="key">
           <kbd>F</kbd>
           <span>openhat</span>
         </div>
-        <div data-key="" class="key">
+        <div data-key="71" class="key">
           <kbd>G</kbd>
           <span>boom</span>
         </div>
-        <div data-key="" class="key">
+        <div data-key="72" class="key">
           <kbd>H</kbd>
           <span>ride</span>
         </div>
-        <div data-key="" class="key">
+        <div data-key="74" class="key">
           <kbd>J</kbd>
           <span>snare</span>
         </div>
-        <div data-key="" class="key">
+        <div data-key="75" class="key">
           <kbd>K</kbd>
           <span>tom</span>
         </div>
-        <div data-key="" class="key">
+        <div data-key="76" class="key">
           <kbd>L</kbd>
           <span>tink</span>
         </div>
       </div>
     </div>
+
+    <!-- data attributes help you check certain things such as a key. 
+         Here we linked the data Key assigned to the "key" above to an
+         audio element so the right audio is played when a certain key is
+         pressed. 
+        -->
+    <audio data-key="65" src="sounds/clap.wav"></audio>
+    <audio data-key="83" src="sounds/hihat.wav"></audio>
+    <audio data-key="68" src="sounds/kick.wav"></audio>
+    <audio data-key="70" src="sounds/openhat.wav"></audio>
+    <audio data-key="71" src="sounds/boom.wav"></audio>
+    <audio data-key="72" src="sounds/ride.wav"></audio>
+    <audio data-key="74" src="sounds/snare.wav"></audio>
+    <audio data-key="75" src="sounds/tom.wav"></audio>
+    <audio data-key="76" src="sounds/tink.wav"></audio>
+
+    <script>
+      //Want to listen for a key up event
+      //Get element that you're listening for. using window so the we listen for the entire window
+      //The event that we're listening for is called 'keydown'
+      //Function that'll give us the event
+
+      function playSound(e) {
+        //seleciting an audio element, then using an attribute selector inside []
+        //normally --> .querySelector('audio[data-key=65]') but we want to use it for multiple events of e not just one variable
+        const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+        const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
+        if (!audio) return; //stops the function from running if a key that isn't assigned to an audio is played
+        audio.currentTime = 0; //rewinds to the start
+        audio.play();
+        key.classList.add("playing"); //adds 'playing to the class of key
+        //we also have .classList.remove() & .classList.toggle()
+      }
+
+      function removeTransition(e) {
+        if (e.propertyName !== "transform") return;
+        //{this} is always equal to what got called against
+        // in this case {this} = key
+        // because key was called by .addEventListener // or .addEventListener was called against key
+        this.classList.remove("playing");
+      }
+
+      const keys = document.querySelectorAll(".key");
+      keys.forEach((key) =>
+        key.addEventListener("transitionend", removeTransition)
+      );
+
+      window.addEventListener("keydown", playSound);
+    </script>
   </body>
 </html>
