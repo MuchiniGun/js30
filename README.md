@@ -5,3 +5,4 @@ I will try use this as a blog to recap what I learn each day. And P.S. I started
 
 Day 1 : Good, learnt to use data-keys correctly and calling them from JS
 Day 2 : Good, learnt "transform-origin" property in css that I had never used before as well as using JS to refresh constantly
+Day 3 : Good, learnt how to change variables using JS --> very useful. Have a few ideas to implement what I have learnt
