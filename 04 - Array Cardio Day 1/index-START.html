@@ -152,38 +152,35 @@
       console.log("Inventors sorted by the oldest:");
       console.table(oldest);
 
-      /*
-        // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
-        // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
-        //////this excercise was run through the console on the website
+      // // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
+      // // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
+      // //////this excercise was run through the console on the website
 
-        const category = document.querySelector(".mw-category");
-        const links = [...category.querySelectorAll("a")]; //will return a node list of links
-        // 2 steps to show that you can call inside a dom object
-        //// could've said --> const category = document.querySelector(".mw-category a");
+      // const category = document.querySelector(".mw-category");
+      // const links = [...category.querySelectorAll("a")]; //will return a node list of links
+      // // 2 steps to show that you can call inside a dom object
+      // //// could've said --> const category = document.querySelector(".mw-category a");
 
-        //it is still a node list and to use the map function, we need to convert it to an array
-        //can use to ways:
-        //we can wrap in Array.from():
-        //const links = Array.from(category.querySelectorAll("a"));
-        //or
-        //we can use something from es6 (es6 spread) and create in an array and use "..." to spread it accross an array:
-        //const links = [...category.querySelectorAll("a")];
+      // //it is still a node list and to use the map function, we need to convert it to an array
+      // //can use to ways:
+      // //we can wrap in Array.from():
+      // //const links = Array.from(category.querySelectorAll("a"));
+      // //or
+      // //we can use something from es6 (es6 spread) and create in an array and use "..." to spread it accross an array:
+      // //const links = [...category.querySelectorAll("a")];
 
-        //converting the list of links to a list of names
-        ////map: to take in a list of links and return a list of names
-        //long way:
-        // const de = links.map((link) => link.textContent);
-        //filtering the list of names
-        // de.filter((streetName) => streetName.includes("de"));
+      // //converting the list of links to a list of names
+      // ////map: to take in a list of links and return a list of names
+      // //long way:
+      // // const de = links.map((link) => link.textContent);
+      // //filtering the list of names
+      // // de.filter((streetName) => streetName.includes("de"));
 
-
-        //short way:
-        const de = links
-          .map((link) => link.textContent)
-          //filtering the list of names
-          .filter((streetNames) => streetNames.includes("de"));
-      */
+      // //short way:
+      // const de = links
+      //   .map((link) => link.textContent)
+      //   //filtering the list of names
+      //   .filter((streetNames) => streetNames.includes("de"));
 
       // 7. sort Exercise
       // Sort the people alphabetically by last name
