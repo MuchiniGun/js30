@@ -8,3 +8,4 @@ Day 1 : Good, learnt to use data-keys correctly and calling them from JS
 Day 2 : Good, learnt "transform-origin" property in css that I had never used before as well as using JS to refresh constantly
 Day 3 : Good, learnt how to change variables using JS --> very useful. Have a few ideas to implement what I have learnt
 Day 4 : Very good, got more comfortable with working with array, objects and data and worked with some basic data algorithms such as sorting and reducing
+Day 5 : Really good and positive excercise. Excited to implement what I've learnt in some of my public sites !
