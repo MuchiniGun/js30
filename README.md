@@ -10,3 +10,4 @@ Day 3 : Good, learnt how to change variables using JS --> very useful. Have a fe
 Day 4 : Very good, got more comfortable with working with array, objects and data and worked with some basic data algorithms such as sorting and reducing
 Day 5 : Really good and positive excercise. Excited to implement what I've learnt in some of my public sites !
 Day 6 : Done, another great day. It's getting really interestin.
+Day 7 : Done, more practice and learning more JS array methods that make life so simple
