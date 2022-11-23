@@ -11,3 +11,4 @@ Day 4 : Very good, got more comfortable with working with array, objects and dat
 Day 5 : Really good and positive excercise. Excited to implement what I've learnt in some of my public sites !
 Day 6 : Done, another great day. It's getting really interestin.
 Day 7 : Done, more practice and learning more JS array methods that make life so simple
+Day 8 : Done, it was alrihgt , just practicing manipulation based on events and where the mouse is etc.
