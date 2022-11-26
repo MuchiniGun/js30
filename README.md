@@ -15,3 +15,4 @@ Day 8 : Done, it was alrihgt , just practicing manipulation based on events and 
 Day 9 : Done.
 Day 10: Done. Had to catch up a little bit but this was a good lesson, helped with understanding different types of thinking
 Day 11: Done, similar logic to the canvas applied
+Day 12: Done, fun little excerise
