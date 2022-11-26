@@ -13,3 +13,4 @@ Day 6 : Done, another great day. It's getting really interestin.
 Day 7 : Done, more practice and learning more JS array methods that make life so simple
 Day 8 : Done, it was alrihgt , just practicing manipulation based on events and where the mouse is etc.
 Day 9 : Done.
+Day 10: Done. Had to catch up a little bit but this was a good lesson, helped with understanding different types of thinking
