@@ -17,3 +17,4 @@ Day 10: Done. Had to catch up a little bit but this was a good lesson, helped wi
 Day 11: Done, similar logic to the canvas applied
 Day 12: Done, fun little excerise
 Day 13: Done, learned slide in on scroll and scroll animations which is very useful !
+Day 14: Done, learnt a very important lesson in making copies of objects and arrays
