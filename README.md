@@ -18,3 +18,4 @@ Day 11: Done, similar logic to the canvas applied
 Day 12: Done, fun little excerise
 Day 13: Done, learned slide in on scroll and scroll animations which is very useful !
 Day 14: Done, learnt a very important lesson in making copies of objects and arrays
+Day 15: Done, got to learn more on how to work with local storage ! wish I was ablel to solve the little challenge at the end but I was close.
