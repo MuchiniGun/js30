@@ -19,3 +19,4 @@ Day 12: Done, fun little excerise
 Day 13: Done, learned slide in on scroll and scroll animations which is very useful !
 Day 14: Done, learnt a very important lesson in making copies of objects and arrays
 Day 15: Done, got to learn more on how to work with local storage ! wish I was ablel to solve the little challenge at the end but I was close.
+Day 16: Done, learning how to work with the mousemove event in different events and the kind of maths involved if there are present child elements within what you are calling the mousemove against
